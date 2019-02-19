@@ -82,15 +82,14 @@ In this case you will use **moment** and **axios**, and for this you go to the s
 
 ## Part 2: Slack 👓
 
+<p align="center"><img width="704" alt="captura de pantalla 2019-02-19 a la s 11 52 21 a m" src="https://user-images.githubusercontent.com/32177779/53033771-cb4e4880-343f-11e9-96d0-638fb9d5b763.png"></p>
+
 
 In this project you are using Slack as a channel so…
 
 **What is Slack?** 🤔
 
 Slack is a collaboration hub where you and your team can work together to get things done.
-
-
-<p align="center"><img width="704" alt="captura de pantalla 2019-02-19 a la s 11 52 21 a m" src="https://user-images.githubusercontent.com/32177779/53033771-cb4e4880-343f-11e9-96d0-638fb9d5b763.png"></p>
 
 
 **for this project:**
