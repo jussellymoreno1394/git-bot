@@ -117,8 +117,7 @@ Slack is a collaboration hub where you and your team can work together to get th
 
 - Now, go to the channel where you added your bot and invoke it with the name you give it, then you will have to send it in response the username of GitHub you want to know how many consecutive days you have been committing.
 
-IMAGEN CORRECTA
-
+<p align="center"><img width="708" alt="captura de pantalla 2019-02-19 a la s 12 41 29 p m" src="https://user-images.githubusercontent.com/32177779/53035594-d014fb80-3443-11e9-857f-c924b933b872.png"></p>
 
 **_Note:_** The name for the invocation is defined in one of the Twilio functions.
 
