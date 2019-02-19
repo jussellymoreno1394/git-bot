@@ -45,7 +45,7 @@ To start with the funny tutorial you need to:
 
 - Click on Create Function.
 
-- Select the "Blank" template and then, click on "Create", then give a name to the function and also to the PATH.
+- Select the **Blank** template and then, click on **Create**, then give a name to the function and also to the PATH.
 
 - Repeat the last step to create the second function you need for this project.
 
@@ -57,21 +57,21 @@ Within the functions you will add the code, which will give life to the GitBot, 
 
 The project  is using some dependencies so, you need to add that in the Configure of the Functions.
 
-In this case you will use "moment" and "axios", and for this you go to the sub-tab which is inside "Functions" called "Configure" and you add our dependencies.
+In this case you will use **moment** and **axios**, and for this you go to the sub-tab which is inside **Functions** called **Configure** and you add our dependencies.
 
 
 
 ### Let's create the assistant ⚙
 
-- Let's go to the "Autopilot" tab and click in Create Assistant button.
+- Let's go to the **Autopilot** tab and click in Create Assistant button.
 
 - Now that you have created the assistant lets go create the task's, for that:  
 
-- Go to the "Tasks" sub-tab inside the assistant and create 2. 
+- Go to the **Tasks** sub-tab inside the assistant and create 2. 
 
 - The first task is the one that will serve us to welcome in the Slack channel and the other is the one you will use to return the answer you want.
 
-- Being in the first task, click on "HTTP CALLBACK URL" and replace that URL with the URL of the function that you created before and now do the same with the other task, remembering that each task is related to a function.
+- Being in the first task, click on **HTTP CALLBACK URL** and replace that URL with the URL of the function that you created before and now do the same with the other task, remembering that each task is related to a function.
 
 ---
 
@@ -87,15 +87,15 @@ Slack is a collaboration hub where you and your team can work together to get th
 
 - Create a public channel in Slack, should be public because if it is private it wont work.
 
-- Click on the name of the workspace and then on "Customize Slack". This will send you to a web page.
+- Click on the name of the workspace and then on **Customize Slack**. This will send you to a web page.
 
-- Inside the page, on the left there will be a "Menu".
+- Inside the page, on the left there will be a **Menu**.
 
-- You will find a tab called "Configure apps".
+- You will find a tab called **Configure apps**.
 
-- In the upper right corner you will find a magnifying glass, in which you can find the tool you need called "Outgoing WebHook", click and enter it.
+- In the upper right corner you will find a magnifying glass, in which you can find the tool you need called **Outgoing WebHook**, click and enter it.
 
-- Click on "Add Configuration" and then on, "Add Integration".
+- Click on **Add Configuration** and then on, **Add Integration**.
 
 - Within the added integration, select the channel created to test previously.
 
@@ -103,7 +103,7 @@ Slack is a collaboration hub where you and your team can work together to get th
 
 - To get the <ACCOUNT_SID> you must go to the Twilio Dashboard and it will be just below the name of your project on the right.
 
-- To get the <ASSISTANT_SID> you must go to the "Autopilot" window and there you can see the name of the assistant created, where also, next to his name you can see the SID of it.
+- To get the <ASSISTANT_SID> you must go to the **Autopilot** window and there you can see the name of the assistant created, where also, next to his name you can see the SID of it.
 
 - Give your assistant a description, a name and an image.
 
@@ -111,4 +111,4 @@ Slack is a collaboration hub where you and your team can work together to get th
 
 **_Note:_** The name for the invocation is defined in one of the Twilio functions.
 
-The creation of a "Router" in Natural Language, in this case is not necessary.
+The creation of a **Router** in Natural Language, in this case is not necessary.
