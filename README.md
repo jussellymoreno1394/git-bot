@@ -63,7 +63,7 @@ In this case you will use **moment** and **axios**, and for this you go to the s
 
 ### Let's create the assistant ⚙
 
-- Let's go to the **Autopilot** tab and click in Create Assistant button.
+- Let's go to the **Autopilot** tab and click in **Create Assistant** button.
 
 - Now that you have created the assistant lets go create the task's, for that:  
 
