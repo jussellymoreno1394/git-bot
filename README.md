@@ -87,11 +87,11 @@ In this project you are using Slack as a channel so…
 
 **What is Slack?** 🤔
 
+Slack is a collaboration hub where you and your team can work together to get things done.
+
 
 <p align="center"><img width="704" alt="captura de pantalla 2019-02-19 a la s 11 52 21 a m" src="https://user-images.githubusercontent.com/32177779/53033771-cb4e4880-343f-11e9-96d0-638fb9d5b763.png"></p>
 
-
-Slack is a collaboration hub where you and your team can work together to get things done.
 
 **for this project:**
 
@@ -117,7 +117,10 @@ Slack is a collaboration hub where you and your team can work together to get th
 
 - Now, go to the channel where you added your bot and invoke it with the name you give it, then you will have to send it in response the username of GitHub you want to know how many consecutive days you have been committing.
 
+
+
 <p align="center"><img width="708" alt="captura de pantalla 2019-02-19 a la s 12 41 29 p m" src="https://user-images.githubusercontent.com/32177779/53035594-d014fb80-3443-11e9-857f-c924b933b872.png"></p>
+<p align="center">This is how the GitBot works</p>
 
 **_Note:_** The name for the invocation is defined in one of the Twilio functions.
 
