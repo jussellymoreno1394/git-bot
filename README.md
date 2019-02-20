@@ -28,15 +28,15 @@ This incredible idea arose because we wanted to make a thirty days commit challe
 In a short way Twilio Autopilot is a conversational AI platform to build intelligent bots, IVRs, and Alexa apps that work.
 
 
-To start with the funny tutorial you need to: 
+To start with the tutorial you need to: 
 
-- go to [Twilio home page](https://www.twilio.com/) because you need to sign in to start with the project so, if you don't have an account you should create one.
+- Go to [Twilio home page](https://www.twilio.com/) because you need to sign in to start with the project. If you don't have an account,  you will need to create one.
 
-- When you get in, you will get an option called Products, and then will see a lot of options but in this case you gotta select Autopilot.
+- Once logged into, you will see an option called Products. Select the Autopilot option.
 
 - Give a name to your project.✏️
 
-- Now that your project is getting form, let's go to the left side bar and select in the tab called Runtime.
+- In the left side bar, select the tab called Runtime.
 
 
 ### In this part you are going to create 2 functions:
@@ -54,7 +54,7 @@ To start with the funny tutorial you need to:
 
 - Repeat the last step to create the second function you need for this project.
 
-**_Note:_** Uou need to save each function URL to use it later.
+**_Note:_** You need to save each function URL to use it later.
 
 Within the functions you will add the code, which will give life to the GitBot, for this use the suplied code and paste it into one of the functions you have created, do this step for the another created function.
 
@@ -70,7 +70,7 @@ In this case you will use **moment** and **axios**, and for this you go to the s
 
 - Let's go to the **Autopilot** tab and click in **Create Assistant** button.
 
-- Now that you have created the assistant lets go create the task's, for that:  
+- Now that you have created the assistant lets go create the tasks, for that:  
 
 - Go to the **Tasks** sub-tab inside the assistant and create 2. 
 
@@ -114,7 +114,7 @@ Slack is a collaboration hub where you and your team can work together to get th
 
 - Give your assistant a description, a name and an image.
 
-- Now, go to the channel where you added your bot and invoke it with the name you give it, then you will have to send it in response the username of GitHub you want to know how many consecutive days you have been committing.
+- Now, go to the channel where you added your bot and invoke it with the given name. You must send the GitHub user name in response to know how many days commit has done in a row.
 
 
 
