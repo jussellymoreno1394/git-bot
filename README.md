@@ -1,10 +1,6 @@
 # GitBot Assistant 🤖
 
 
-**Introduction:**
-
-This incredible idea arose because we wanted to make a thirty days commit challenge and we wanted to know how many days in a row a given GitHub user had made a commit, so we decided to create an app for making the consults in an easy and fast.
-
 **Tools to use 🛠:**
 
 - Twilio Autopilot.
