@@ -18,7 +18,7 @@ exports.handler = function(context, event, callback) {
 				        "name": "ask_name",
 				        "questions":question,
 					    "on_complete": {
-                            "redirect": "task://Answering_Slack"
+                            "redirect": "task://Answering_Slack" // This is the name of my task.
 				        },
 		    	    }
 		        }
