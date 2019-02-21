@@ -26,7 +26,8 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 - Go to [Twilio home page](https://www.twilio.com/) because you need to sign in to start with the project. If you don't have an account,  you will need to create one.
 
-<p align="center"><img width="1024" alt="captura de pantalla 2019-02-21 a la s 12 18 42 p m" src="https://user-images.githubusercontent.com/32177779/53188377-2feddc80-35d3-11e9-964a-4d50e7812af6.png"></p>
+
+<p align="center"><img width="584" alt="captura de pantalla 2019-02-21 a la s 12 58 59 p m" src="https://user-images.githubusercontent.com/32177779/53190854-7bef5000-35d8-11e9-9e70-ac78cd61f361.png"></p>
 
 
 - Once logged into, you will see an option called Products. Select the Autopilot option.
