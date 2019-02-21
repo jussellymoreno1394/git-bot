@@ -49,7 +49,7 @@ To start with the tutorial you need to:
 
 - Click on Create Function.
 
-- Select the **Blank** template and then, click on **Create**, then give a name to the function and also to the PATH.
+- Select the **Blank** template and then, click on **Create**, then give a name to the function and also to the PATH. Save each function URL to use it later.
 
 
 <p align="center"><img width="706" alt="captura de pantalla 2019-02-21 a la s 12 19 27 p m" src="https://user-images.githubusercontent.com/32177779/53188506-89560b80-35d3-11e9-8916-e28b675d64c7.png"></p>
@@ -59,10 +59,7 @@ To start with the tutorial you need to:
 
 - Repeat the last step to create the second function you need for this project.
 
-**_Note:_** You need to save each function URL to use it later.
-
 - Within the functions you will add the code, which will give life to the GitBot, for this use the suplied code and paste it into one of the functions you have created, do this step for the another created function.
-
 
 
 - The project  is using some dependencies so, you need to add that in the Configure of the Functions.
