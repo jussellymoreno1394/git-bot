@@ -1,4 +1,3 @@
-// API request part
 const axios = require('axios');
 const moment = require('moment');
 const GITHUB = {
@@ -43,7 +42,7 @@ async function getCommitsInARow(username){
     }
     
 async function main(username){
-        
+    
     try{
         let resp = await getCommitsInARow(username);
         return resp;
@@ -59,18 +58,31 @@ exports.handler = async function principal(context, event, callback) {
     TotDays = await main();
     let memory = JSON.parse(event.Memory);
     let username = memory.twilio.collected_data.ask_name.answers.bot_name.answer || 'None';
-
-        try{
-            TotDays = await main(username);
-        }catch(e){
-            console.log(e);
-        }
+    
+    try{
+        TotDays = await main(username);
+    }catch(e){
+        console.log(e);
+    }
+    
+    if(typeof TotDays != 'undefined'){
         let responseObject = {
             "actions": [
                 {
-                    "say": `Hi again, the user!,  ${username} has: ${TotDays} days-in-row :cubimal_chick:`
+                    "say": `Hi again, the user!,  ${username} has: ${TotDays} days-in-row :bellhop_bell:`
                 }
             ]
         };
-    callback(null, responseObject);
+        callback(null, responseObject);
+    }
+    else{
+        let responseObject = {
+            "actions": [
+                {
+                    "say": `The user entered does not exist.`
+                }
+            ]
+        };
+        callback(null, responseObject);
+    }
 }
