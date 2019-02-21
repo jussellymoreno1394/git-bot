@@ -28,7 +28,12 @@ To start with the tutorial you need to:
 
 - Go to [Twilio home page](https://www.twilio.com/) because you need to sign in to start with the project. If you don't have an account,  you will need to create one.
 
+<p align="center"><img width="1024" alt="captura de pantalla 2019-02-21 a la s 12 18 42 p m" src="https://user-images.githubusercontent.com/32177779/53188377-2feddc80-35d3-11e9-964a-4d50e7812af6.png"></p>
+
 - Once logged into, you will see an option called Products. Select the Autopilot option.
+
+
+<p align="center"><img width="699" alt="captura de pantalla 2019-02-21 a la s 12 18 58 p m" src="https://user-images.githubusercontent.com/32177779/53188442-5ad83080-35d3-11e9-9321-a9bc29b9c8df.png"></p>
 
 - Give a name to your project.✏️
 
@@ -48,6 +53,10 @@ To start with the tutorial you need to:
 
 - Select the **Blank** template and then, click on **Create**, then give a name to the function and also to the PATH.
 
+
+<p align="center"><img width="706" alt="captura de pantalla 2019-02-21 a la s 12 19 27 p m" src="https://user-images.githubusercontent.com/32177779/53188506-89560b80-35d3-11e9-8916-e28b675d64c7.png"></p>
+
+
 - Repeat the last step to create the second function you need for this project.
 
 **_Note:_** You need to save each function URL to use it later.
@@ -62,6 +71,10 @@ In this case you will use **moment** and **axios**, and for this you go to the s
 
 
 
+<p align="center"><img width="704" alt="captura de pantalla 2019-02-21 a la s 12 19 43 p m" src="https://user-images.githubusercontent.com/32177779/53188565-ad195180-35d3-11e9-90fe-322294d0d475.png"></p>
+
+
+
 ### Let's create the assistant ⚙
 
 - Let's go to the **Autopilot** tab and click in **Create Assistant** button.
@@ -70,9 +83,13 @@ In this case you will use **moment** and **axios**, and for this you go to the s
 
 - Go to the **Tasks** sub-tab inside the assistant and create 2. 
 
+<p align="center"><img width="701" alt="captura de pantalla 2019-02-21 a la s 12 19 56 p m" src="https://user-images.githubusercontent.com/32177779/53188620-c6ba9900-35d3-11e9-978b-062c8042108c.png"></p>
+
 - The first task is the one that will serve us to welcome in the Slack channel and the other is the one you will use to return the answer you want.
 
 - Being in the first task, click on **HTTP CALLBACK URL** and replace that URL with the URL of the function that you created before and now do the same with the other task, remembering that each task is related to a function.
+
+<p align="center"><img width="702" alt="captura de pantalla 2019-02-21 a la s 12 20 08 p m" src="https://user-images.githubusercontent.com/32177779/53188657-ddf98680-35d3-11e9-8b64-123e02f28957.png"></p>
 
 ---
 
