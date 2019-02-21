@@ -30,10 +30,8 @@ To start with the tutorial you need to:
 
 <p align="center"><img width="1024" alt="captura de pantalla 2019-02-21 a la s 12 18 42 p m" src="https://user-images.githubusercontent.com/32177779/53188377-2feddc80-35d3-11e9-964a-4d50e7812af6.png"></p>
 
+
 - Once logged into, you will see an option called Products. Select the Autopilot option.
-
-
-<p align="center"><img width="699" alt="captura de pantalla 2019-02-21 a la s 12 18 58 p m" src="https://user-images.githubusercontent.com/32177779/53188442-5ad83080-35d3-11e9-9321-a9bc29b9c8df.png"></p>
 
 - Give a name to your project.✏️
 
@@ -57,23 +55,25 @@ To start with the tutorial you need to:
 <p align="center"><img width="706" alt="captura de pantalla 2019-02-21 a la s 12 19 27 p m" src="https://user-images.githubusercontent.com/32177779/53188506-89560b80-35d3-11e9-8916-e28b675d64c7.png"></p>
 
 
+---
+
 - Repeat the last step to create the second function you need for this project.
 
 **_Note:_** You need to save each function URL to use it later.
 
-Within the functions you will add the code, which will give life to the GitBot, for this use the suplied code and paste it into one of the functions you have created, do this step for the another created function.
+- Within the functions you will add the code, which will give life to the GitBot, for this use the suplied code and paste it into one of the functions you have created, do this step for the another created function.
 
 
 
-The project  is using some dependencies so, you need to add that in the Configure of the Functions.
+- The project  is using some dependencies so, you need to add that in the Configure of the Functions.
 
-In this case you will use **moment** and **axios**, and for this you go to the sub-tab which is inside **Functions** called **Configure** and you add our dependencies.
+- In this case you will use **moment** and **axios**, and for this you go to the sub-tab which is inside **Functions** called **Configure** and you add our dependencies.
 
 
 
 <p align="center"><img width="704" alt="captura de pantalla 2019-02-21 a la s 12 19 43 p m" src="https://user-images.githubusercontent.com/32177779/53188565-ad195180-35d3-11e9-90fe-322294d0d475.png"></p>
 
-
+---
 
 ### Let's create the assistant ⚙
 
