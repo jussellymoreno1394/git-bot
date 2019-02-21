@@ -22,7 +22,7 @@
 In a short way Twilio Autopilot is a conversational AI platform to build intelligent bots, IVRs, and Alexa apps that work.
 
 
-To start with the tutorial you need to: 
+**To start with the tutorial you need to:**
 
 - Go to [Twilio home page](https://www.twilio.com/) because you need to sign in to start with the project. If you don't have an account,  you will need to create one.
 
@@ -90,7 +90,8 @@ To start with the tutorial you need to:
 
 ## Part 2: Slack 👓
 
-<p align="center"><img width="704" alt="captura de pantalla 2019-02-19 a la s 11 52 21 a m" src="https://user-images.githubusercontent.com/32177779/53033771-cb4e4880-343f-11e9-96d0-638fb9d5b763.png"></p>
+
+<p align="center"><img width="460" alt="captura de pantalla 2019-02-21 a la s 12 41 08 p m" src="https://user-images.githubusercontent.com/32177779/53189637-fc608180-35d5-11e9-81b8-fad8e43d2350.png"></p>
 
 
 In this project you are using Slack as a channel so…
