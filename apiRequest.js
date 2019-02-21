@@ -79,7 +79,7 @@ exports.handler = async function principal(context, event, callback) {
         let responseObject = {
             "actions": [
                 {
-                    "say": `The user entered does not exist.`
+                    "say": `The user entered does not exist :no_entry_sign:`
                 }
             ]
         };
