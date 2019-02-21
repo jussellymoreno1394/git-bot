@@ -35,6 +35,7 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 - In the left side bar, select the tab called Runtime.
 
+---
 
 ### In this part you are going to create 2 functions:
 
@@ -52,8 +53,6 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 <p align="center"><img width="706" alt="captura de pantalla 2019-02-21 a la s 12 19 27 p m" src="https://user-images.githubusercontent.com/32177779/53188506-89560b80-35d3-11e9-8916-e28b675d64c7.png"></p>
 
-
----
 
 - Repeat the last step to create the second function you need for this project.
 
