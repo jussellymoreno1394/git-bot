@@ -90,10 +90,6 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 ## Part 2: Slack 👓
 
-
-<p align="center"><img width="460" alt="captura de pantalla 2019-02-21 a la s 12 41 08 p m" src="https://user-images.githubusercontent.com/32177779/53189637-fc608180-35d5-11e9-81b8-fad8e43d2350.png"></p>
-
-
 In this project you are using Slack as a channel so…
 
 **What is Slack?** 🤔
