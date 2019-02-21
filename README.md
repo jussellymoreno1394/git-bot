@@ -16,8 +16,6 @@
 ---
 ## Part 1: Twilio - Autopilot
 
-<p align="center"><img width="324" alt="captura de pantalla 2019-02-19 a la s 11 52 52 a m" src="https://user-images.githubusercontent.com/32177779/53033904-254f0e00-3440-11e9-9485-fa88800973be.png"></p>
-
 
 **First of all, what is Twilio Autopilot?**  💬 
 
