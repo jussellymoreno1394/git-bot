@@ -78,13 +78,13 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 <p align="center"><img width="671" alt="captura de pantalla 2019-02-22 a la s 12 51 27 a m" src="https://user-images.githubusercontent.com/32177779/53222496-05843980-363c-11e9-8976-6b8be867ed3c.png"></p>
 
+- Give a name to your assistant.
 
-- Now that you have created the assistant lets go create the tasks, for that: 
+### Tasks creation
 
 - Go to **Autopilot** and click in the name of the created assistant.
 
 <p align="center"><img width="677" alt="captura de pantalla 2019-02-22 a la s 12 54 10 a m" src="https://user-images.githubusercontent.com/32177779/53222611-64e24980-363c-11e9-95de-8f6878ba1682.png"></p>
-
 
 
 - Go to **Tasks** inside the assistant and create 2. 
