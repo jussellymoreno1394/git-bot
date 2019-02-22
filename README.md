@@ -100,7 +100,7 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 ---
 
-### Create a Router in "Natural language Router 💭
+### Router in "Natural language Router 💭
 
 - You must go to "Natural Language Router" and create an example and assign it to the **Hello_Slack** task.
 
@@ -121,7 +121,7 @@ In this project you are using Slack as a channel so…
 Slack is a collaboration hub where you and your team can work together to get things done.
 
 
-**for this project we need to:**
+**For this project we need to:**
 
 - Create a public channel in Slack, should be public because if it is private it wont work.
 
