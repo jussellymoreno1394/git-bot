@@ -83,6 +83,8 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 <p align="center"><img width="677" alt="captura de pantalla 2019-02-22 a la s 12 54 10 a m" src="https://user-images.githubusercontent.com/32177779/53222611-64e24980-363c-11e9-95de-8f6878ba1682.png"></p>
 
+
+
 - Go to **Tasks** inside the assistant and create 2. 
 
 <p align="center"><img width="701" alt="captura de pantalla 2019-02-21 a la s 12 19 56 p m" src="https://user-images.githubusercontent.com/32177779/53188620-c6ba9900-35d3-11e9-978b-062c8042108c.png"></p>
@@ -99,7 +101,7 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 <p align="center"><img width="679" alt="captura de pantalla 2019-02-22 a la s 12 59 28 a m" src="https://user-images.githubusercontent.com/32177779/53222824-24cf9680-363d-11e9-84e0-6750eadd538f.png"></p>
 
-- Being inside "Natural Language Router" with our created example, next to "Train Tasks", you will see a tab called "Build Models", create a model giving it a name
+- Being inside **Natural Language Router** with our created example, next to **Train Tasks**, you will see a tab called **Build Models**, create a model giving it a name.
 
 <p align="center"><img width="677" alt="captura de pantalla 2019-02-22 a la s 1 02 12 a m" src="https://user-images.githubusercontent.com/32177779/53222923-8263e300-363d-11e9-9d1b-95dc18b83058.png"></p>
 
@@ -126,13 +128,20 @@ Slack is a collaboration hub where you and your team can work together to get th
 
 - In the upper right corner you will find a magnifying glass, in which you can find the tool you need called **Outgoing WebHook**, click and enter it.
 
+<p align="center"><img width="668" alt="captura de pantalla 2019-02-22 a la s 1 05 00 a m" src="https://user-images.githubusercontent.com/32177779/53223050-146beb80-363e-11e9-94c0-b6fefb43ec8f.png"></p>
+
+
 - Click on **Add Configuration** and then on, **Add Integration**.
 
 - Within the added integration, select the channel created to test previously.
 
 - In the URL field add this address https://channels.autopilot.twilio.com/v1/<ACCOUNT_SID>/<ASSISTANT_SID>/slack, replacing the fields.
 
+<p align="center"><img width="687" alt="captura de pantalla 2019-02-22 a la s 1 05 22 a m" src="https://user-images.githubusercontent.com/32177779/53223099-3a918b80-363e-11e9-8526-4ef11dc2cdcf.png"></p>
+
 - To get the <ACCOUNT_SID> and <ASSISTANT_SID> you must go to the **Autopilot** tab and click on the assistant and then, in properties.
+
+<p align="center"><img width="679" alt="captura de pantalla 2019-02-22 a la s 1 05 34 a m" src="https://user-images.githubusercontent.com/32177779/53223122-5006b580-363e-11e9-90f3-a6745ffeeedb.png"></p>
 
 - Give your assistant a description, a name and an image.
 
@@ -145,5 +154,3 @@ Slack is a collaboration hub where you and your team can work together to get th
 
 
 **_Note:_** The name for the invocation is defined in one of the Twilio functions.
-
-The creation of a **Router** in Natural Language, in this case is not necessary.
