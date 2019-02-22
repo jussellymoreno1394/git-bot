@@ -37,7 +37,7 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 ---
 
-### In this part you are going to create 2 functions:
+### In this part you are going to create 2 functions 🕹:
 
 
 **How to create functions?**
@@ -80,7 +80,7 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 - Give a name to your assistant.
 
-### Tasks creation
+### Tasks creation 🔩
 
 - Go to **Autopilot** and click in the name of the created assistant.
 
@@ -97,7 +97,7 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 <p align="center"><img width="702" alt="captura de pantalla 2019-02-21 a la s 12 20 08 p m" src="https://user-images.githubusercontent.com/32177779/53188657-ddf98680-35d3-11e9-8b64-123e02f28957.png"></p>
 
-### Create a Router in "Natural language Router
+### Create a Router in "Natural language Router 💭
 
 - You must go to "Natural Language Router" and create an example and assign it to the **Hello_Slack** task.
 
