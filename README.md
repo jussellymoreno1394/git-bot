@@ -27,7 +27,8 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 - Go to [Twilio home page](https://www.twilio.com/) because you need to sign in to start with the project. If you don't have an account,  you will need to create one.
 
 
-<p align="center"><img width="340" alt="captura de pantalla 2019-02-22 a la s 1 10 01 a m" src="https://user-images.githubusercontent.com/32177779/53223247-c3102c00-363e-11e9-8c49-f0fc0078d19a.png"></p>
+<p align="center"><img width="683" alt="captura de pantalla 2019-02-22 a la s 1 12 42 a m" src="https://user-images.githubusercontent.com/32177779/53223331-f81c7e80-363e-11e9-9721-c9c6107bb32e.png">
+</p>
 
 
 - Once logged into, you will see an option called **Products**. Select the **Autopilot** option.
@@ -45,7 +46,7 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 - In the left side bar, select the tab called Runtime.
 
-<p align="center"><img width="340" alt="captura de pantalla 2019-02-22 a la s 1 10 01 a m" src="https://userimages.githubusercontent.com/32177779/53223202-9825d800-363e-11e9-9c7b-dc66e4d5413e.png"></p>
+<p align="center"><img width="340" alt="captura de pantalla 2019-02-22 a la s 1 10 01 a m" src="https://user-images.githubusercontent.com/32177779/53223247-c3102c00-363e-11e9-8c49-f0fc0078d19a.png"></p>
 
 
 - Inside  the Runtime tab you will see an option called Function, click on it. 
