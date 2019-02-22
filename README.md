@@ -34,8 +34,6 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 - Give a name to your project.✏️
 
-- In the left side bar, select the tab called Runtime.
-
 ---
 
 ### In this part you are going to create 2 functions:
@@ -44,6 +42,8 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 
 **How to create functions?**
+
+- In the left side bar, select the tab called Runtime.
 
 - Inside  the Runtime tab you will see an option called Function, click on it. 
 
@@ -74,17 +74,34 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 - Let's go to the **Autopilot** tab and click in **Create Assistant** button.
 
-- Now that you have created the assistant lets go create the tasks, for that:  
+<p align="center"><img width="671" alt="captura de pantalla 2019-02-22 a la s 12 51 27 a m" src="https://user-images.githubusercontent.com/32177779/53222496-05843980-363c-11e9-8976-6b8be867ed3c.png"></p>
 
-- Go to the **Tasks** sub-tab inside the assistant and create 2. 
+
+- Now that you have created the assistant lets go create the tasks, for that: 
+
+- Go to **Autopilot** and click in the name of the created assistant.
+
+<p align="center"><img width="677" alt="captura de pantalla 2019-02-22 a la s 12 54 10 a m" src="https://user-images.githubusercontent.com/32177779/53222611-64e24980-363c-11e9-95de-8f6878ba1682.png"></p>
+
+- Go to **Tasks** inside the assistant and create 2. 
 
 <p align="center"><img width="701" alt="captura de pantalla 2019-02-21 a la s 12 19 56 p m" src="https://user-images.githubusercontent.com/32177779/53188620-c6ba9900-35d3-11e9-978b-062c8042108c.png"></p>
 
-- The first task is the one that will serve us to welcome in the Slack channel and the other is the one you will use to return the answer you want.
+- The first task is the one that will serve us to welcome (Hello Slack) in the Slack channel and the other (Answering Slack) is the one you will use to return the answer you want.
 
 - Being in the first task, click on **HTTP CALLBACK URL** and replace that URL with the URL of the function that you created before and now do the same with the other task, remembering that each task is related to a function.
 
 <p align="center"><img width="702" alt="captura de pantalla 2019-02-21 a la s 12 20 08 p m" src="https://user-images.githubusercontent.com/32177779/53188657-ddf98680-35d3-11e9-8b64-123e02f28957.png"></p>
+
+### Create a Router in "Natural language Router
+
+- You must go to "Natural Language Router" and create an example and assign it to the **Hello_Slack** task.
+
+<p align="center"><img width="679" alt="captura de pantalla 2019-02-22 a la s 12 59 28 a m" src="https://user-images.githubusercontent.com/32177779/53222824-24cf9680-363d-11e9-84e0-6750eadd538f.png"></p>
+
+- Being inside "Natural Language Router" with our created example, next to "Train Tasks", you will see a tab called "Build Models", create a model giving it a name
+
+<p align="center"><img width="677" alt="captura de pantalla 2019-02-22 a la s 1 02 12 a m" src="https://user-images.githubusercontent.com/32177779/53222923-8263e300-363d-11e9-9d1b-95dc18b83058.png"></p>
 
 ---
 
