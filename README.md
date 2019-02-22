@@ -64,7 +64,7 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 - Within the functions you will add the code, which will give life to the GitBot, for this use the suplied code and paste it into one of the functions you have created, do this step for the another created function.
 
 
-- The project  is using some dependencies so, you need to add that in the Configure of the Functions.
+- The project  is using some dependencies so, you need to add that in the **Configure** tab inside of **Functions**.
 
 - In this case you will use **moment** and **axios**, and for this you go to the sub-tab which is inside **Functions** called **Configure** and you add our dependencies.
 
