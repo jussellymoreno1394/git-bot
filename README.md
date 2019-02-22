@@ -39,8 +39,6 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 ### In this part you are going to create 2 functions:
 
-<p align="center"><img width="327" alt="captura de pantalla 2019-02-19 a la s 12 18 26 p m" src="https://user-images.githubusercontent.com/32177779/53034102-8840a500-3440-11e9-96ef-ceed4dc3384e.png"></p>
-
 
 **How to create functions?**
 
