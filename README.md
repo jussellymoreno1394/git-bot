@@ -51,7 +51,7 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 - Inside  the Runtime tab you will see an option called Function, click on it. 
 
-- Click on Create Function.
+- Click on **Create Function**.
 
 - Select the **Blank** template and then, click on **Create**, then give a name to the function and also to the PATH. Save each function URL to use it later.
 
