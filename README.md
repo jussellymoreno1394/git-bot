@@ -37,7 +37,7 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 ---
 
-### In this part you are going to create 2 functions 🕹:
+### Creating functions 🕹:
 
 
 **How to create functions?**
@@ -75,10 +75,9 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 ### Let's create the assistant ⚙
 
 - Let's go to the **Autopilot** tab and click in **Create Assistant** button.
+- Give a name to your assistant.
 
 <p align="center"><img width="671" alt="captura de pantalla 2019-02-22 a la s 12 51 27 a m" src="https://user-images.githubusercontent.com/32177779/53222496-05843980-363c-11e9-8976-6b8be867ed3c.png"></p>
-
-- Give a name to your assistant.
 
 ---
 
