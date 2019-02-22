@@ -44,16 +44,16 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 **How to create functions?**
 
-- In the left side bar, select the tab called Runtime.
+- In the left side bar, select the tab called **Runtime**.
 
 <p align="center"><img width="340" alt="captura de pantalla 2019-02-22 a la s 1 10 01 a m" src="https://user-images.githubusercontent.com/32177779/53223247-c3102c00-363e-11e9-8c49-f0fc0078d19a.png"></p>
 
 
-- Inside  the Runtime tab you will see an option called Function, click on it. 
+- Inside  the **Runtime** tab you will see an option called **Function**, click on it. 
 
 - Click on **Create Function**.
 
-- Select the **Blank** template and then, click on **Create**, then give a name to the function and also to the PATH. Save each function URL to use it later.
+- Select the **Blank** template and then, click on **Create**, then give a name to the function and also to the **PATH**. Save each function URL to use it later.
 
 
 <p align="center"><img width="706" alt="captura de pantalla 2019-02-21 a la s 12 19 27 p m" src="https://user-images.githubusercontent.com/32177779/53188506-89560b80-35d3-11e9-8916-e28b675d64c7.png"></p>
@@ -61,7 +61,7 @@ In a short way Twilio Autopilot is a conversational AI platform to build intelli
 
 - Repeat the last step to create the second function you need for this project.
 
-- Within the functions you will add the code, which will give life to the GitBot, for this use the suplied code and paste it into one of the functions you have created, do this step for the another created function.
+- Within the functions you will add the code, which will give life to the **GitBot**, for this use the suplied code and paste it into one of the functions you have created, do this step for the another created function.
 
 
 - The project  is using some dependencies so, you need to add that in the **Configure** tab inside of **Functions**.
