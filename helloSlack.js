@@ -1,8 +1,7 @@
-// HELLO SLACK FUNCTION
 exports.handler = function(context, event, callback) {
     let botName = event.CurrentInput;
     
-    if(botName.includes("bot")){ //This is the name we want to use as trigger word
+    if(botName.toLowerCase().includes("bot")){ //Here we set the trigger word
         let question = [
             {
                 "question":{
@@ -18,7 +17,7 @@ exports.handler = function(context, event, callback) {
 				        "name": "ask_name",
 				        "questions":question,
 					    "on_complete": {
-                            "redirect": "task://Answering_Slack" // This is the name of my task.
+                            "redirect": "task://Answering_Slack"
 				        },
 		    	    }
 		        }

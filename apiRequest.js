@@ -54,22 +54,17 @@ async function main(username){
     main();
     
 exports.handler = async function principal(context, event, callback) {
-    let TotDays;
-    TotDays = await main();
     let memory = JSON.parse(event.Memory);
     let username = memory.twilio.collected_data.ask_name.answers.bot_name.answer || 'None';
+    let usrCommits;
+    usrCommits = await main(username);
     
-    try{
-        TotDays = await main(username);
-    }catch(e){
-        console.log(e);
-    }
     
-    if(typeof TotDays != 'undefined'){
+    if(typeof usrCommits != 'undefined'){
         let responseObject = {
             "actions": [
                 {
-                    "say": `Hi again, the user!,  ${username} has: ${TotDays} days-in-row :bellhop_bell:`
+                    "say": `Hi again, the user!,  ${username} has: ${usrCommits} days-in-row :bellhop_bell:`
                 }
             ]
         };
