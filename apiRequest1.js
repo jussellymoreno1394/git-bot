@@ -16,24 +16,24 @@ const GITHUB = {
     }
 
     async function reposEvents(username){
-        let repEvent = await checkEvents(username);
-            const userEvent= repEvent.data;
-            let arr=[];
-            for(let event of userEvent){
-                if (event.type == 'PushEvent'){
-                    let index = arr.map(x => { return x .id; }).indexOf(event.repo.id);
-                    if(index>0){
-                        let aux = arr[index-1];
-                        arr[index-1]=arr[index];
-                        arr[index]=aux;
-                    }
-                    else if(index === -1){
+              let repEvent = await checkEvents(username);
+              const userEvent= repEvent.data;
+              let arr=[];
+              for(let event of userEvent){
+                  if (event.type == 'PushEvent'){
+                      let index = arr.map(x => { return x .id; }).indexOf(event.repo.id);
+                      if(index>0){
+                          let aux = arr[index-1];
+                          arr[index-1]=arr[index];
+                          arr[index]=aux;
+                      }
+                      else if(index === -1){
                         let _myobj = {name:event.repo.name};
-                        arr.push(_myobj);
-                    }
-                    return arr;
-                } 
-            }
+                          arr.push(_myobj);
+                      }
+                      return arr;
+                  } 
+              }
     }
     
     async function getDates(username){
@@ -86,17 +86,17 @@ const GITHUB = {
                 let responseObject = {
                     "actions": [
                         {
-                            "say": `Hi again, the user!,  ${username} has: ${usrCommits} days-in-row and the active repository of ${username} is  ${JSON.stringify(repos)}:bellhop_bell:`
+                            "say": `Hi again, the user!,  ${username} has: ${usrCommits} days-in-row and the active repository of ${username} is  ${JSON.stringify(repos[0].name)}:bellhop_bell:`
                         }
                     ]
                 };
             callback(null, responseObject);
-            }    
+            }
             else{
                 let responseObject = {
                     "actions": [
                         {
-                            "say": `The user entered does not exist or has not done any activity recently. :no_entry_sign:` // añadir mensaje de "Usuario no existe o tiene 0 commits"
+                            "say": `The user entered does not exist or has not made any activity recently. :no_entry_sign:` // añadir mensaje de "Usuario no existe o tiene 0 commits"
                         }
                     ]
                 };
