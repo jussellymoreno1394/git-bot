@@ -51,7 +51,7 @@ async function main(username){
     }
 }
 
-    main();
+main();
     
 exports.handler = async function principal(context, event, callback) {
     let memory = JSON.parse(event.Memory);
