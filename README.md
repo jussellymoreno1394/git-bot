@@ -127,7 +127,10 @@ Slack is a collaboration hub where you and your team can work together to get th
 
 **For this project we need to:**
 
-- Create a public channel in Slack, should be public because if it is private it wont work.
+- Create a public channel in Slack.
+
+<p align="center"><img width="216" alt="captura de pantalla 2019-03-08 a la s 10 56 30 a m" src="https://user-images.githubusercontent.com/32177779/54039549-382c4700-4191-11e9-9edf-fb5476d54109.png"></p>
+
 
 - Click on the name of the workspace and then on **Customize Slack**. This will send you to a web page.
 
