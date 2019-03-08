@@ -164,5 +164,3 @@ Slack is a collaboration hub where you and your team can work together to get th
 
 <p align="center"><img width="845" alt="captura de pantalla 2019-03-08 a la s 10 25 52 a m" src="https://user-images.githubusercontent.com/32177779/54037638-9d316e00-418c-11e9-804f-c3c04ebb0626.png"></p>
 <p align="center"><b>This is how the GitBot works.</b></p>
-
-**_Note:_** The name for the invocation is defined in one of the Twilio functions.
