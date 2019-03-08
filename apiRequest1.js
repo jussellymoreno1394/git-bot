@@ -91,7 +91,7 @@ exports.handler = async function principal(context, event, callback) {
             let responseObject = {
                 "actions": [
                     {
-                        "say": `The user entered does not exist or has not made any activity recently. :no_entry_sign:` // añadir mensaje de "Usuario no existe o tiene 0 commits"
+                        "say": `The user entered does not exist or has not made any activity recently. :no_entry_sign:`
                     }
                 ]
             };
