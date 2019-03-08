@@ -152,10 +152,12 @@ Slack is a collaboration hub where you and your team can work together to get th
 
 <p align="center"><img width="679" alt="captura de pantalla 2019-02-22 a la s 1 05 34 a m" src="https://user-images.githubusercontent.com/32177779/53223122-5006b580-363e-11e9-90f3-a6745ffeeedb.png"></p>
 
-- Give your assistant a description, a name and an image.
+- Give your assistant a description, a name and image.
 
-- Now, go to the channel where you added your bot and invoke it with the given name. You must send the GitHub user name in response to know how many days commit has done in a row.
+- Now, go to the channel where you added your bot and invoke it with the given name. 
+- You must send the GitHub user name in response to know how many days commit has done in a row.
 
+### The final result 🌈:
 
 
 <p align="center"><img width="845" alt="captura de pantalla 2019-03-08 a la s 10 25 52 a m" src="https://user-images.githubusercontent.com/32177779/54037638-9d316e00-418c-11e9-804f-c3c04ebb0626.png"></p>
