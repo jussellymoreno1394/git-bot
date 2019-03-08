@@ -22,20 +22,19 @@ async function getDates(username){
 
 async function getCommitsInARow(username){
     const dates = await getDates(username);
-    let index;
     let amount = 0;
 
     if (moment().add(-1, 'days').format('L') > moment(dates[0], 'YYYY-MM-DD').format('L'))
         return amount;
             
-    for(index = 0; index <= dates.length-1; index++){
+    for(let index = 0; index <= dates.length-1; index++){
         let a = moment(dates[index], 'YYYY-MM-DD');
         let b = moment(dates[index+1], 'YYYY-MM-DD');
-        const dif = a.diff(b,'days');
+        const differ = a.diff(b,'days');
             
-        if(dif > 1)
+        if(differ > 1)
             return amount + 1;
-        else if(dif === 1)
+        else if(differ === 1)
             amount++;
     }
         return amount;
