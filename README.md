@@ -2,7 +2,7 @@
 
 **Description:** 
 
-This is a bot we call "GitBot",  this bot returns how many days in row a  given GitHub user has made a commit.
+GitBot receive a GitHub username as parameter and returns as response the most active repository of that user and also how many days in a row the user has made a commit.
 
 
 **Tools to use 🛠:**
@@ -163,4 +163,3 @@ Slack is a collaboration hub where you and your team can work together to get th
 
 
 **_Note:_** The name for the invocation is defined in one of the Twilio functions.
-- If you want to know how many days in a row a given user had made a Commit and also you want to know which is the most active repository, use this file **apiRequest1.js** instead of **apiRequest.js**.
