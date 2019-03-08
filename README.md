@@ -158,6 +158,7 @@ Slack is a collaboration hub where you and your team can work together to get th
 
 - You must send the GitHub user name in response to know how many days commit has done in a row.
 
+---
 
 ### The final result 🌈:
 
